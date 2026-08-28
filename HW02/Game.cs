@@ -16,7 +16,7 @@ namespace GameStore
         public string Genre { get; set; } = string.Empty;
         public DateTime ReleaseDate { get; set; }
 
-        // Task 4: added later, requires a new migration
+        // Task 4
         public GameMode Mode { get; set; }
         public long CopiesSold { get; set; }
     }
